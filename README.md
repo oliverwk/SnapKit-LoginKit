@@ -18,7 +18,7 @@ ConentView()
 		print(ulr)
 	})
 ```
-So you need to pass it `UIApplication.shared` with is the same for swiftui
+So you need to pass it `UIApplication.shared` which does the trick.
 ```swift
 ConentView()
 	.onOpenURL(perform: { url in
