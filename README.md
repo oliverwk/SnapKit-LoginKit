@@ -20,9 +20,10 @@ ConentView()
 ```
 So in this repo I pass it that
 ```swift
-   .onOpenURL(perform: { url in
-                    if SCSDKLoginClient.application(UIApplication.shared, open: url, options: nil) {
-                      
-                    }
-                })
+ConentView()
+	.onOpenURL(perform: { url in
+		if SCSDKLoginClient.application(UIApplication.shared, open: url, options: nil) {
+			print("Nice, snapchat can read your url")                      
+		}
+	})
 ```
