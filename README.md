@@ -1,7 +1,7 @@
 # SnapKit-LoginKit
-This example will show how to use snapchat's LoginKit with swiftui
+This example will show how to use snapchat's LoginKit with swiftui.
 
-A API that changed was how you handle url's as you see below this is the old way of doing it
+An API that changed in IOS 14 was how you handle url's as you see below this is the old way of doing it
 ```swift
 import SCSDKLoginKit
 
