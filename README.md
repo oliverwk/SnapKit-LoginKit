@@ -11,14 +11,14 @@ func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpe
     }
 }
 ```
-While the new of doing things is this wich as you can see does not pass a `UIApplication` so you need to pass it `UIApplication.shared`
+While the new of doing things is this wich as you can see does not pass a `UIApplication` only a url as you can see below.
 ```swift
 ConentView()
 	.onOpenURL(perform: { url in
 		print(ulr)
 	})
 ```
-So in this repo I pass it that
+So you need to pass it `UIApplication.shared` with is the same for swiftui
 ```swift
 ConentView()
 	.onOpenURL(perform: { url in
